@@ -46,12 +46,48 @@ body {
   letter-spacing: 0.32px;
 }
 
-.conteiner {
+/* .conteiner {
   width: 1158px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+} */
+
+.conteiner {
+  padding-left: 16px;
+  padding-right: 16px;
 }
+
+@media screen and (min-width: 428px) {
+  .conteiner {
+    width: 428px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .conteiner {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .conteiner {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .menu-list {
+    display: none;
+  }
+  .main-adress {
+   display: none;
+  }
+}
+
 
 .visually-hidden {
   position: absolute;
@@ -93,7 +129,7 @@ body {
 
 /* =======================ШАПКА======================= */
 
-.main-header {
+/* .main-header {
   padding-top: 25.5px;
   padding-bottom: 25.5px;
 
@@ -195,7 +231,7 @@ body {
 
 .tel {
   margin-left: 40px;
-}
+} */
 
 /* =======================/ШАПКА======================= */
 
@@ -203,7 +239,7 @@ body {
 
 /* ========HERO======== */
 
-.hero {
+/* .hero {
   background-color: var(--grey, rgba(46, 47, 66, 0.7));
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -259,7 +295,7 @@ body {
 .modal-btn:hover,
 .modal-btn:focus {
   background-color: var(--hover-focus-color);
-}
+} */
 
 /* ========/HERO======== */
 
