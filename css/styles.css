@@ -256,6 +256,26 @@ letter-spacing: 0.32px;
 /* =======================МЕЙН======================= */
 
 /* ========HERO======== */
+.hero{
+  background-color: var(--grey, rgba(46, 47, 66, 0.7));
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ), url(../images/bg-img/bg-mobile/bg_mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    max-width: 767px;
+    padding: 112px 0;
+    margin: 0 auto;
+}
+@media screen and (min-device-pixel-ratio: 2),
+screen and (min-resolution: 192dpi),
+screen and (min-resolution: 2dppx) {
+  .hero {
+    background-image:  url(../images/bg-img/bg-mobile/bg_mobile@2x.jpg);
+  }
+}
 
 /* .hero {
   background-color: var(--grey, rgba(46, 47, 66, 0.7));
